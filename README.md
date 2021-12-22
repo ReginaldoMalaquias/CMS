@@ -69,3 +69,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # CMS
 Sistema Gestão de Conteúdo.
 >>>>>>> f940257bdd789e5a8b3884054be9194063695af7
+
+Como resolver conflitos: executar os comandos abaixo
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "fix merge conflict Main"
+git push -u origin main
