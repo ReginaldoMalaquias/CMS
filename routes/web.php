@@ -1,7 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\ConfigController;
+Use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'Site\HomeController@index');
+Route::get('/', [HomeController::class,'index']);
 
-Route::prefix('painel')->group(function () {
-    Route::get('/', 'Admin\HomeController@index');
-});
+Route::get('/home', [HomeController::class,'index']);
+Route::get('/config/user', [HomeController::class,'user']);
