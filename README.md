@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 024a9256b0abb869bc79ac7d70dfb2a511d517f3
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -64,3 +68,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<<<<<<< HEAD
+=======
+=======
+# CMS
+Sistema Gestão de Conteúdo.
+>>>>>>> f940257bdd789e5a8b3884054be9194063695af7
+
+Como resolver conflitos: executar os comandos abaixo
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "fix merge conflict Main"
+git push -u origin main
+>>>>>>> 024a9256b0abb869bc79ac7d70dfb2a511d517f3

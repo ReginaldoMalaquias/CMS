@@ -1,10 +1,15 @@
 <?php
 
+<<<<<<< HEAD
 
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ConfigController;
 Use App\Http\Controllers\HomeController;
+=======
+use Illuminate\Support\Facades\Route;
+
+>>>>>>> 024a9256b0abb869bc79ac7d70dfb2a511d517f3
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +21,13 @@ Use App\Http\Controllers\HomeController;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', [HomeController::class,'index']);
 
 Route::get('/home', [HomeController::class,'index']);
 Route::get('/config/user', [HomeController::class,'user']);
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> 024a9256b0abb869bc79ac7d70dfb2a511d517f3

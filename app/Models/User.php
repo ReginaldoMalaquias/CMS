@@ -12,8 +12,11 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+<<<<<<< HEAD
     protected $timestamps = false;
 
+=======
+>>>>>>> 024a9256b0abb869bc79ac7d70dfb2a511d517f3
     /**
      * The attributes that are mass assignable.
      *
